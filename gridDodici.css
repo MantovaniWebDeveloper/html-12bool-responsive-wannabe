@@ -36,7 +36,7 @@
     .col-lg-1 {
       width: calc((100% / 12));
     }
-@media screen and (max-width: 768px) {
+    @media screen and (min-width: 594px) and (max-width: 900px){
   * {
     margin: 0;
     padding: 0;
@@ -50,6 +50,9 @@
   }
   #lezioni .row {
     margin-top: 0px;
+  }
+  #lezioni .row img {
+    height: 200px;
   }
   #steps .row {
     margin-top: 10px;
@@ -93,7 +96,7 @@
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 425px) and (max-width: 593px) {
   * {
     margin: 0;
     padding: 0;
